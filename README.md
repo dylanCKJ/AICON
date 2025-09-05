@@ -29,8 +29,12 @@ curl http://localhost:8000/v1/models
 
 ### 2. 환경변수 세팅
 
-```export OPENAI_API_BASE="http://localhost:8000/v1"```
-```export OPENAI_API_KEY="dummy"```
+```
+export OPENAI_API_BASE="http://localhost:8000/v1"
+```
+```
+export OPENAI_API_KEY="dummy"
+```
 
 
 ### 3. agent 파일 실행
