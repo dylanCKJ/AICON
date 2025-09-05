@@ -1,1 +1,32 @@
-# 외부 근거 데이터 (result of search_agent)
+{
+  "claims": [
+    {
+      "segment": { "연령대": "20대", "직업군": "학생" },
+      "direction": "+",
+      "confidence": 0.75,
+      "recency_days": 20,
+      "source_count": 3
+    },
+    {
+      "segment": { "연령대": "30대", "성별": "남" },
+      "direction": "+",
+      "confidence": 0.6,
+      "recency_days": 45,
+      "source_count": 2
+    },
+    {
+      "segment": { "연령대": "60대 이상" },
+      "direction": "-",
+      "confidence": 0.65,
+      "recency_days": 60,
+      "source_count": 2
+    },
+    {
+      "segment": { "직업군": "자영업자" },
+      "direction": "+",
+      "confidence": 0.55,
+      "recency_days": 30,
+      "source_count": 2
+    }
+  ]
+}
