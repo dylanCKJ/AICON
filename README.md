@@ -16,10 +16,12 @@
 
 ### 1. vllm으로 Midm-2.0-Base 서빙
 
-'''python -m vllm.entrypoints.openai.api_server \
+'''
+python -m vllm.entrypoints.openai.api_server \
   --model K-intelligence/Midm-2.0-Base-Instruct \
   --port 8000 \
   --enforce-eager --max-model-len 8192 --gpu-memory-utilization 0.8 --dtype float16
+'''
 
 '''curl http://localhost:8000/v1/models
   - 잘 작동하는지 확인용 command
