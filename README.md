@@ -1,16 +1,17 @@
 # Demo_management_agent
 
 ## inputs/
-### data/shopping/*.json
+  
+- evidence.json
+  - 외부 근거 데이터 (result of search_agent)
+
+- candidates.json
+  - list for eval(simulation)
+  - 평가할 후보 상품/요금제 목록
+
+## data/shopping/*.json
 - 라벨링된 페르소나 대화 데이터
   
-### evidence.json
-- 외부 근거 데이터 (result of search_agent)
-
-### candidates.json
-- list for eval(simulation)
-- 평가할 후보 상품/요금제 목록
-
 ## [사용방법]
 
 ### 1. vllm으로 Midm-2.0-Base 서빙
