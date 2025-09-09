@@ -1,4 +1,4 @@
-# Demo_management_agent
+# AICON
 
 ## inputs/
   
