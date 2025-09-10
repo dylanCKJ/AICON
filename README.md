@@ -9,7 +9,7 @@
 ---
 ## 📖 Overview
 
-**AICON (아이:콘)**은 *Persona Simulation*과 *Evidence-based Evaluation*을 결합한 PDCA(Plan-Data-Check-Act) Cycle 자동 프레임워크입니다.  
+**AICON(아이:콘)** 은 *Persona Simulation*과 *Evidence-based Evaluation*을 결합한 PDCA(Plan-Data-Check-Act) Cycle 자동 프레임워크입니다.  
 외부 검색 결과(`evidence.json`)와 라벨링된 페르소나 대화 데이터(`data/shopping/*.json`)를 활용하여,  
 후보 상품·요금제(`candidates.json`)에 대해 **시뮬레이션 기반 평가**를 수행할 수 있습니다.
 
