@@ -41,7 +41,7 @@ export OPENAI_API_KEY="dummy"
 
 
 ### 3. agent 파일 실행
-```python persona_agent.py```
+```python run_agent.py```
 
 
 
