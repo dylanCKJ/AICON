@@ -33,7 +33,7 @@ run_agent.py         : 실행 파일
 ```
 ---
 
-## Getting Started
+## ⚡ Getting Started
 
 ### 1. vLLM으로 Midm-2.0-Base 서빙하기
 ```bash
